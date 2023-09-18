@@ -76,7 +76,6 @@ pub mod clever_airbnb {
             .checked_sub(1)
             .unwrap();
 
-        // No need to decrease last airbnb idx
 
         // Todo PDA already closed in context
 
