@@ -41,7 +41,6 @@ pub mod clever_airbnb {
         airbnb_account.image = img;
         airbnb_account.isReserved = false;
 
-        // Increase airbnb idx for PDA
         user_profile.last_airbnb = user_profile.last_airbnb
             .checked_add(1)
             .unwrap();
