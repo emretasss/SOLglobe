@@ -63,7 +63,6 @@ pub mod clever_airbnb {
     ) -> Result<()> {
         let airbnb_account = &mut ctx.accounts.airbnb_account;
 
-        // Mark todo
         airbnb_account.location = location;
         airbnb_account.country = country;
         airbnb_account.price = price;
@@ -72,7 +71,6 @@ pub mod clever_airbnb {
     }
 
     pub fn remove_airbnb(ctx: Context<RemoveAirbnb>, _airbnb_idx: u8) -> Result<()> {
-        // Decreate total airbnb count
         let user_profile = &mut ctx.accounts.user_profile;
         user_profile.airbnb_count = user_profile.airbnb_count
             .checked_sub(1)
