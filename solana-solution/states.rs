@@ -8,7 +8,6 @@ pub struct UserProfile {
     pub airbnb_count: u8,
 }
 
-/// Size 2605 = 32 + 1 + 4 + 256 + 4 + 2048 + 4 + 256
 #[account]
 #[derive(Default)]
 pub struct AirbnbAccount {
