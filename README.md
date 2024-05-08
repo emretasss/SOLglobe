@@ -3,9 +3,6 @@ SolGlobe is a platform that harnesses the power of blockchain technology to make
 
 
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
