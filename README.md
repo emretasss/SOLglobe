@@ -1,5 +1,5 @@
 # SOLglobe
-SolGlobe is a platform that harnesses the power of blockchain technology to make global events and travel experiences safer and more interactive. Users on this innovative platform have the opportunity to explore diverse cultures and experiences worldwide,
+SolGlobe is a platform that harnesses the power of blockchain technology to make global events and travel experiences safer and more interactive. Users on this innovative platform have the opportunity to explore diverse cultures and experiences worldwide
 
 
 
